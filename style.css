@@ -1,0 +1,177 @@
+body {
+	background-color: white;
+    font-weight: 400;
+	color: white;
+    font-family: "Metal", serif;
+    font-style: normal;
+}
+ 
+.image-circle {
+	border-radius: 50%;
+}
+
+h1 {
+	color: yellow;
+	font-weight: bold;
+	font-family: Protest Riot;
+	font-size: 70px;
+	letter-spacing: 10px;
+	line-height: 75px;
+}
+
+h2 {
+	color: yellow;
+	font-family: Protest Riot;
+	font-weight: lighter;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: green;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+color: yellow;
+}
+
+.icon {
+  display: inline-block;
+  width: 400px;
+  background-size: cover;
+}
+
+.container {
+
+	background: beige;
+	width: 1200px; 
+	border : solid rgb(53, 55, 75);
+	border-radius: 20px;
+	box-shadow: 0 15px 35px black;
+}
+
+@media(max-width: 960px){
+
+	.container {
+
+		width: 860px;
+	}
+	#intro {
+		width: 660px;
+	}
+	#Spotify {
+		width: 660px;
+	}
+	#Academic {
+		width: 660px;
+	}
+	#Project {
+		width: 660px;
+	}
+	#Hobbies {
+		width: 660px;
+	}
+	#Follow {
+		width: 660px;
+	}
+}
+
+
+@media(max-width: 720px){
+
+	.container {
+
+		width: 620px;
+	}
+	#intro {
+		width: 420px;
+	}
+	#Spotify {
+		width: 420px;
+	}
+	#Academic {
+		width: 420px;
+	}
+	#Project {
+		width: 420px;
+	}
+	#Hobbies {
+		width: 420px;
+	}
+	#Follow {
+		width: 420px;
+	}
+}
+
+@media(max-width: 540px){
+
+	.container {
+
+		width: 440px;
+	}
+	#intro {
+		width: 240px;
+	}
+	#Spotify {
+		width: 240px;
+	}
+	#Academic {
+		width: 240px;
+	}
+	#Project {
+		width: 240px;
+	}
+	#Hobbies {
+		width: 240px;
+	}
+	#Follow {
+		width: 240px;
+	}
+}
+
+.card-blue {
+
+	background: rgb(53, 55, 75);
+	border-radius: 20px;
+	box-shadow: 0 15px 35px black;
+	margin : 20px auto;
+	padding : 5px; 
+	width: 1000px; 
+	}
+
+.list-inline {
+
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+
+	font-size: 40px;
+	color: lightgrey;
+}
+
+.list-inline i:hover{
+
+	color: yellow;
+
+}
+
+.icon-spotify i {
+
+	font-size: 40px;
+}
+
+#Spotify i {
+
+	margin-top: 5px;
+}
+
+
